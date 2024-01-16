@@ -232,11 +232,11 @@ export default function App() {
         )}
       </select>
 
-      <h3>
+     
         {selectedCountry && selectedState && selectedCity && (
           <h3>{`You selected ${selectedCity}, ${selectedState}, ${selectedCountry}`}</h3>
         )}
-      </h3>
+    
     </div>
   );
 }
